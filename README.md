@@ -22,8 +22,9 @@ Arquivo de garantias: guarda as faturas das compras, calcula até quando cada um
 
 - Site em React + TypeScript, app móvel em Expo (React Native) e API em FastAPI + PostgreSQL.
 - Infraestrutura na AWS descrita em Terraform (Lambda, S3, CloudFront, SES, EventBridge) e CI/CD no GitHub Actions.
-- Cerca de 440 testes automáticos: pytest, Vitest, jest-expo e Playwright, com acessibilidade verificada pelo axe.
-- Lê as faturas pelo código QR com o faturapt, que nasceu deste projeto.
+- Cerca de 540 testes automáticos: pytest, Vitest, jest-expo e Playwright, com acessibilidade verificada pelo axe.
+- Lê as faturas pelo código QR com o faturapt, que nasceu deste projeto. Na app, basta apontar a câmara ao QR; o NIF da loja fica guardado, para preencher a loja na compra seguinte e avisar de faturas registadas duas vezes.
+- O primeiro deploy é verificado antes de correr: um script confirma a conta AWS, os segredos e as variáveis do GitHub, sem mudar nada.
 
 *O repositório fica público quando a app estiver publicada na AWS.*
 
