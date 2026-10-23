@@ -1,7 +1,5 @@
 # Olá, sou o José Ferrão 👋
 
-Estou a aprender desenvolvimento full stack a construir projetos completos: do código aos testes, ao CI e à infraestrutura na cloud.
-
 ## Projetos
 
 ### 🧾 [faturapt](https://github.com/JoseFerrao20/faturapt)
