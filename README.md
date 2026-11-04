@@ -1,7 +1,5 @@
 # Olá, sou o José Ferrão 👋
 
-Construo projetos completos, do código aos testes, ao CI e à infraestrutura: aplicações full stack, pipelines de dados e bibliotecas, sempre com dados e problemas reais de Portugal.
-
 ## Projetos
 
 ### ⛽ [combustiveis-pt](https://github.com/JoseFerrao20/combustiveis-pt)
